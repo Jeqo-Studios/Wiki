@@ -15,8 +15,8 @@
 
 ## Resources
 
-* [Discord](https://discord.jeqo.net)
-* [Resource Pack Guides](https://jeqo.net/guides)
+* [🗨️ Discord](https://discord.jeqo.net)
+* [🧭 Resource Pack Guides](https://jeqo.net/guides)
 * [🌎 Atlas Adder](https://jeqo.net/atlas-adder)
 * [🗂️ Minecraft Asset Viewer](https://mav.jeqo.net/)
-* [Tag Tool](https://jeqo.net/tag-tool)
+* [🆒 Tag Tool](https://jeqo.net/tag-tool)
