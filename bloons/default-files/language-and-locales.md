@@ -1,4 +1,10 @@
-# Language
+---
+description: >-
+  Contains information regarding the language and locale files for the Bloons
+  messages.
+---
+
+# Language and Locales
 
 The default language used by Bloons is English. The language file can be selected via the config.yml file. Language files are generated and stored in 'Bloons/languages/'.
 
