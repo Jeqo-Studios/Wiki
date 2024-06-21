@@ -13,7 +13,7 @@
   * [💾 Commands & Permissions](plugins/gizmo/commands-and-permissions.md)
   * [📁 Default Files](plugins/gizmo/default-files.md)
 
-## Resources
+## Other
 
 * [🗨️ Discord](https://discord.jeqo.net)
 * [📦 Assets](https://jeqo.net/resources)
