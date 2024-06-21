@@ -7,7 +7,7 @@
 * [🏮 Bloons](plugins/bloons/README.md)
   * [🛠️ Installation](plugins/bloons/installation.md)
   * [💾 Commands & Permissions](plugins/bloons/commands-and-permissions.md)
-* [📁 Default Files](plugins/default-files/README.md)
+* [📁 Default Files](plugins/bloons/default-files.md)
   * [Language](plugins/default-files/language.md)
   * [Config](plugins/default-files/config.md)
 * [⚙️ Gizmo](plugins/gizmo/README.md)
