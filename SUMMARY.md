@@ -7,7 +7,7 @@
 * [🛠️ Installation](bloons/installation.md)
 * [💾 Commands & Permissions](bloons/commands-and-permissions.md)
 * [📁 Default Files](bloons/default-files/README.md)
-  * [Configuration](bloons/default-files/configuration.md)
+  * [📜 Configuration](bloons/default-files/configuration.md)
   * [🗨️ Language and Locales](bloons/default-files/language.md)
 
 ## ⚙️ Gizmo
