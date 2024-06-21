@@ -1,0 +1,89 @@
+# 🎞️ Screens
+
+Default screens.yml:
+
+```yaml
+# Unicodes
+# -------------------------
+# The unicode characters of your welcome screen, background, and shifts.
+# These should match the providers in your /assets/minecraft/font/default.json.
+# These are REQUIRED for the plugin to function properly.
+# (Do not change or touch these unless you know what you are doing.)
+Unicodes:
+  shift-48: 
+  shift-1013: 
+  shift-1536: 
+  background: 
+  welcome-screen: 
+  first-join-welcome-screen-unicode: 
+  first-join-background: 
+
+
+
+# Welcome Screen
+# -------------------------
+enable-welcome-screen: true
+once-per-restart: false # If true, the welcome screen will only be displayed once per server session.
+
+Items:
+  first-item: # The item ID; can be whatever.
+    material: DIAMOND_SWORD
+    custom-model-data: 1
+    slot: 44 # Valid slot values: 0-89; 54-89 are the player's inventory.
+    name: '#ee0000The Gizmo Sword'
+    lore:
+      - '#48cfa9Lores have multi-line'
+      - '#f2991dand hex support!'
+    hide-flags: true # If true, lines in the lore such as "Damage: 4" will be hidden.
+    # Execute commands from the player or console, or send a message.
+    # Valid prefixes: [player], [console], [message]
+    # Here you can remove the commands section if you don't want to execute commands.
+    commands:
+      - '[player] i diamond 1'
+      - '[console] give %player% emerald 1'
+      - '[message] A diamond and emerald, such a dynamic duo.'
+    close-on-click: true # If true, the welcome screen will close when the player clicks this item.
+  another-item:
+    material: GLOW_BERRIES
+    slot: 53
+    name: '&6Gizmo Glow Berries'
+    lore:
+      - '&7This is an item lore'
+  a-shiny-diamond:
+    material: DIAMOND
+    slot: 62
+    name: '&bShiny Diamond'
+    lore:
+      - '&3Property of Jeqo'
+
+
+
+# First Join Welcome Screen
+# -------------------------
+enable-first-join-welcome-screen: true
+
+First-Join-Items:
+  first-item:
+    material: DIAMOND_SWORD
+    custom-model-data: 1
+    slot: 44
+    name: '#ee0000The Gizmo Sword'
+    lore:
+      - '#48cfa9Lores have multi-line'
+      - '#f2991dand hex support!'
+    hide-flags: true
+  another-item:
+    material: DIRT
+    custom-model-data: 1
+    slot: 53
+    name: '&aDirt'
+    lore:
+      - '&7Found on the ground.'
+  a-shiny-diamond:
+    material: DIAMOND
+    custom-model-data: 1
+    slot: 62
+    name: '&bShiny Diamond'
+    lore:
+      - '&3Property of Jeqo'
+```
