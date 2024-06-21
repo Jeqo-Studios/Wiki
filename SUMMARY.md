@@ -2,7 +2,7 @@
 
 * [📑 Index](README.md)
 
-## 🎈 Bloons
+## Bloons
 
 * [🛠️ Installation](bloons/installation.md)
 * [💾 Commands & Permissions](bloons/commands-and-permissions.md)
@@ -10,7 +10,7 @@
   * [📜 Configuration](bloons/default-files/configuration.md)
   * [🗨️ Language and Locales](bloons/default-files/language.md)
 
-## ⚙️ Gizmo
+## Gizmo
 
 * [🛠️ Installation](gizmo/installation.md)
 * [💾 Commands & Permissions](gizmo/commands-and-permissions.md)
