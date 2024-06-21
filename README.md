@@ -1,4 +1,4 @@
-# Index
+# 📑 Index
 
 ## Plugins
 
@@ -11,7 +11,8 @@
 {% endcontent-ref %}
 
 {% hint style="info" %}
-Is There Something Missing?
+Something Missing?
 
-We kindly ask of you to join our community Discord server and leave a message!
+Option A: Join our [community Discord](https://jeqo.net/discord) server and leave a message!\
+Option B: [Contribute](https://github.com/Jeqo-Studios/Wiki) directly to our wiki - it's open source!
 {% endhint %}

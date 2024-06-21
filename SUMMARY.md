@@ -15,9 +15,9 @@
 
 ## Other
 
-* [Discord](https://discord.jeqo.net)
+* [🗨️ Discord](https://discord.jeqo.net)
 * [📦 Assets](https://jeqo.net/resources)
 * [🌎 Atlas Adder](https://jeqo.net/atlas-adder)
 * [🗂️ MAV (Minecraft Asset Viewer)](https://mav.jeqo.net/)
-* [Resource Pack Guides](https://jeqo.net/guides)
-* [Tag Tool](https://jeqo.net/tag-tool)
+* [🧭 Resource Pack Guides](https://jeqo.net/guides)
+* [🆒 Tag Tool](https://jeqo.net/tag-tool)
