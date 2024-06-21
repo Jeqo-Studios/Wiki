@@ -2,12 +2,12 @@
 
 ## Plugins
 
-{% content-ref url="plugins/bloons/" %}
-[bloons](plugins/bloons/)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
-{% content-ref url="plugins/gizmo/" %}
-[gizmo](plugins/gizmo/)
+{% content-ref url="gizmo/default-files/" %}
+[default-files](gizmo/default-files/)
 {% endcontent-ref %}
 
 {% hint style="info" %}
