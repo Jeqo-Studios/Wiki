@@ -1,9 +1,12 @@
-# Config
+---
+description: Contains information regarding the main config.yml file.
+---
+
+# Configuration
 
 The main configuration file for Bloons is generated as 'config.yml' in the root of the Bloons directory.
 
-Default config.yml:
-
+{% code title="config.yml" %}
 ```yaml
 # --------------------------------------------------#
 #
@@ -55,3 +58,4 @@ buttons:
     slots:
       - 50
 ```
+{% endcode %}

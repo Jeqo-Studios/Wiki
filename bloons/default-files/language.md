@@ -2,9 +2,8 @@
 
 The default language used by Bloons is English. The language file can be selected via the config.yml file. Language files are generated and stored in 'Bloons/languages/'.
 
-Default en\_US.yml:
-
-```
+{% code title="en_US.yml" %}
+```yaml
 messages:
   prefix: '<gradient:#ff00cc:#5555ff>[Bloons]</gradient> <white>'
   no-permission: '<#fc1c1c>Access denied.'
@@ -37,3 +36,4 @@ messages:
 
   invalid-hex-code: 'Invalid hex code: %s'
 ```
+{% endcode %}
