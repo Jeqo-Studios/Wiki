@@ -1,4 +1,4 @@
-# Commands & Permissions
+# 💾 Commands & Permissions
 
 | Command | Permission | Description |
 | ------- | ---------- | ----------- |
