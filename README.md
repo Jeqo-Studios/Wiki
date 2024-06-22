@@ -1,10 +1,10 @@
 ---
 description: >-
-  Welcome to the Jeqo Studios wiki! This is the home of all information
-  regarding our plugins API's, installations, commands, default files, and more!
+  Welcome to the wiki! This is the home of all information regarding our
+  plugins' APIs, installations, commands, default files, and more.
 ---
 
-# 🏠 Home
+# 🗃️ Index
 
 ## &#x20;Plugins
 
@@ -12,8 +12,8 @@ description: >-
 [Broken link](broken-reference)
 {% endcontent-ref %}
 
-{% content-ref url="gizmo/default-files/" %}
-[default-files](gizmo/default-files/)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
 {% hint style="info" %}
