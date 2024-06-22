@@ -1,3 +1,9 @@
+---
+description: >-
+  Learn how to set up and modify the config.yml file to tailor our Minecraft
+  plugins to your specific needs.
+---
+
 # 📜 Configuration
 
 The main configuration file for Gizmo is generated as 'config.yml' in the root of the Gizmo directory.

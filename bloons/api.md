@@ -1,7 +1,7 @@
 ---
 description: >-
-  An API is the perfect addition to any Minecraft plugin, this will provide a
-  detailed outline on using our custom Bloons API!
+  Access comprehensive documentation for integrating and using our Minecraft
+  plugins' API.
 ---
 
 # 💻 API

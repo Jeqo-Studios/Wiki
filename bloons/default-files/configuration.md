@@ -1,5 +1,7 @@
 ---
-description: Contains information regarding the main config.yml file.
+description: >-
+  Learn how to set up and modify the config.yml file to tailor our Minecraft
+  plugins to your specific needs.
 ---
 
 # 📜 Configuration

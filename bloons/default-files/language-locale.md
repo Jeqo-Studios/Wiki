@@ -1,10 +1,10 @@
 ---
 description: >-
-  Our Bloons plugin comes with premade locales to ensure that a multitude of
-  people can access and use the plugin no matter the language they speak.
+  Learn how to configure language and locale settings for our Minecraft plugins
+  to match your preferred language and regional preferences.
 ---
 
-# 🗨️ Language and Locales
+# 🗨️ Language/Locale
 
 The default language used by Bloons is English. The language file can be selected via the `config.yml` file. Language files are generated and stored in `Bloons/languages/`.
 

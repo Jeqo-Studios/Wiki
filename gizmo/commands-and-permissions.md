@@ -1,7 +1,7 @@
 ---
 description: >-
-  Not sure what command are available, what they do, and what permissions are
-  needed to execute them? We'll you're at the right place!
+  Explore the full list of commands and permissions for managing our Minecraft
+  plugins effectively.
 ---
 
 # 💾 Commands & Permissions

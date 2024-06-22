@@ -1,4 +1,10 @@
-# 🗨️ Messages
+---
+description: >-
+  Learn how to configure language and locale settings for our Minecraft plugins
+  to match your preferred language and regional preferences.
+---
+
+# 🗨️ Language/Locale
 
 {% code title="messages.yml" %}
 ```yaml

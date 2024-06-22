@@ -9,13 +9,14 @@
 * [💾 Commands & Permissions](bloons/commands-and-permissions.md)
 * [📁 Default Files](bloons/default-files/README.md)
   * [📜 Configuration](bloons/default-files/configuration.md)
-  * [🗨️ Language & Locales](bloons/default-files/language.md)
+  * [🗨️ Language/Locale](bloons/default-files/language-locale.md)
 
 ## Gizmo
 
 * [🛠️ Installation](gizmo/installation.md)
+* [💻 API](gizmo/api.md)
 * [💾 Commands & Permissions](gizmo/commands-and-permissions.md)
 * [📁 Default Files](gizmo/default-files/README.md)
   * [📜 Configuration](gizmo/default-files/configuration.md)
-  * [🗨️ Messages](gizmo/default-files/messages.md)
+  * [🗨️ Language/Locale](gizmo/default-files/language-locale.md)
   * [🎞️ Screens](gizmo/default-files/screens.md)
