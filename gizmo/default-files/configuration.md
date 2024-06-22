@@ -1,23 +1,20 @@
-# 📜 Config
+# 📜 Configuration
 
 The main configuration file for Gizmo is generated as 'config.yml' in the root of the Gizmo directory.
 
-Default config.yml:
-
-```yaml
-debug-mode: false
-# -------------------------------------------------- #
+<pre class="language-yaml" data-title="config.yml"><code class="lang-yaml"><strong>debug-mode: false
+</strong># -------------------------------------------------- #
 #
 # Gizmo 1.2.1 - Made by Jeqo
 #
 # Discord:
 # https://jeqo.net/discord
 #
-# Resource & Data Pack Guides:
+# Resource &#x26; Data Pack Guides:
 # https://jeqo.net/guides
 #
 # -------------------------------------------------- #
-background-color: '&0' # Minecraft color and hex code supported (i.e. &0 or #000000).
+background-color: '&#x26;0' # Minecraft color and hex code supported (i.e. &#x26;0 or #000000).
 
 delay: 0 # The delay (in ticks; 20 ticks per second) for the welcome screen to be displayed after joining.
 delay-background: false # Display the background texture while the delay is active.
@@ -54,4 +51,4 @@ sound-on-advance: # Play a sound when the player advances from the welcome scree
   sound: ENTITY_CHICKEN_EGG
   volume: 0.5
   pitch: 1
-```
+</code></pre>

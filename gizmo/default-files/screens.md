@@ -1,7 +1,6 @@
 # 🎞️ Screens
 
-Default screens.yml:
-
+{% code title="screens.yml" %}
 ```yaml
 # Unicodes
 # -------------------------
@@ -87,3 +86,4 @@ First-Join-Items:
     lore:
       - '&3Property of Jeqo'
 ```
+{% endcode %}

@@ -1,7 +1,6 @@
 # 🗨️ Messages
 
-Default messages.yml:
-
+{% code title="messages.yml" %}
 ```yaml
 # All messages support Minecraft (&f) and hex (#ffffff) color codes.
 # Kick-on-decline and welcome messages have multi-line support.
@@ -35,3 +34,4 @@ show-screen-others: '&7Displaying test screen to %player_name%'
 
 config-reloaded: '&7Configuration reloaded.'
 ```
+{% endcode %}

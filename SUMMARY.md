@@ -16,6 +16,6 @@
 * [🛠️ Installation](gizmo/installation.md)
 * [💾 Commands & Permissions](gizmo/commands-and-permissions.md)
 * [📁 Default Files](gizmo/default-files/README.md)
-  * [📜 Config](gizmo/default-files/config.md)
+  * [📜 Configuration](gizmo/default-files/configuration.md)
   * [🗨️ Messages](gizmo/default-files/messages.md)
   * [🎞️ Screens](gizmo/default-files/screens.md)
