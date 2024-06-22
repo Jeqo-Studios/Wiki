@@ -43,3 +43,7 @@ Now that you have created a PaperMC server, accepted the Minecraft EULA, and gen
 6. Ensure that all generated [default files](default-files/) have been by navigating to `/plugins/Bloons` and reviewing the language/locale files and various configurations by confirming that they are present and have the proper contents.
 
 Congratulations on loading the Bloons plugin up and setting up your server if you haven't already done so! Our goal with Bloons was to make it as easy and seamless as possible to upload it to your server to ensure the best possible user experience as possible when utilizing your PaperMC server. From all of Jeqo Studios, we hope you enjoy Bloons, and please don't hesitate to reach out for support on our [Discord server](https://jeqo.net/discord) or by contacting [guccifox@jeqo.net](mailto:guccifox@jeqo.net) at any point.
+
+## Troubleshooting and Support
+
+Having issues with Bloons or another component or module of it? Please join our [Discord server](https://jeqo.net/discord) or contact [guccifox@jeqo.net](mailto:guccifox@jeqo.net) for further support.
