@@ -5,7 +5,7 @@ The main configuration file for Gizmo is generated as 'config.yml' in the root o
 <pre class="language-yaml" data-title="config.yml"><code class="lang-yaml"><strong>debug-mode: false
 </strong># -------------------------------------------------- #
 #
-# Gizmo 1.2.1 - Made by Jeqo
+# Gizmo &#x3C;version> - Made by Jeqo
 #
 # Discord:
 # https://jeqo.net/discord
