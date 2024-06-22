@@ -5,6 +5,7 @@
 ## Bloons
 
 * [🛠️ Installation](bloons/installation.md)
+* [💻 API](bloons/api.md)
 * [💾 Commands & Permissions](bloons/commands-and-permissions.md)
 * [📁 Default Files](bloons/default-files/README.md)
   * [📜 Configuration](bloons/default-files/configuration.md)
