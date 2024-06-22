@@ -16,7 +16,7 @@ As per the [paper documentation](https://docs.papermc.io/paper/getting-started),
 
 * Java Version: Java 21 (for Minecraft 1.20.x)
 * RAM/Memory: 4GB-6GB Minimum
-* CPU: Intel i5, Intel i7, xeon, or greater depending on the plugins the server is hosting
+* CPU: Intel i5, Intel i7, Xeon, or greater depending on the plugins the server is hosting
 * Storage Space: 24GB or greater
 * OS: Windows or a suitable Linux Distribution that can both install Java and run the official PaperMC server software or a PaperMC fork that contains the **Kyori Adventure Library**
 * Network: 50MB/s or greater for download and 10MB/s or greater for upload
@@ -45,7 +45,7 @@ Congratulations on loading the Gizmo plugin up and setting up your server if you
 From all of Jeqo Studios, we hope you enjoy Gizmo.
 
 {% hint style="info" %}
-Troublshooting & Support
+Troubleshooting & Support
 
 Having issues with Gizmo? Join our [community Discord](https://jeqo.net/discord) server and leave a message!
 {% endhint %}
