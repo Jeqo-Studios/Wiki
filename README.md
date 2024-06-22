@@ -1,6 +1,12 @@
-# 📑 Index
+---
+description: >-
+  Welcome to the Jeqo Studios wiki! This is the home of all information
+  regarding our plugins API's, installations, commands, default files, and more!
+---
 
-## Plugins
+# 🏠 Home
+
+## &#x20;Plugins
 
 {% content-ref url="broken-reference" %}
 [Broken link](broken-reference)
@@ -13,6 +19,6 @@
 {% hint style="info" %}
 Something Missing?
 
-Option A: Join our [community Discord](https://jeqo.net/discord) server and leave a message!\
-Option B: [Contribute](https://github.com/Jeqo-Studios/Wiki) directly to our wiki - it's open source!
+* Join our [community Discord](https://jeqo.net/discord) server and leave a message!
+* [Contribute](https://github.com/Jeqo-Studios/Wiki) directly to our wiki - it's open source!
 {% endhint %}

@@ -1,6 +1,6 @@
 # Table of contents
 
-* [📑 Index](README.md)
+* [🏠 Home](README.md)
 
 ## Bloons
 
