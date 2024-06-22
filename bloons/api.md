@@ -75,7 +75,7 @@ SingleBalloon.checkBalloonRemovalOrAdd(player, balloonID);
 
 ### Unequipping a Single Balloon
 
-Unequipping balloons is a vital part when it comes to the balloon ecosystem. Please be sure to check the validity of the to be unequipped balloon before moving forward with the removal of it.
+Unequipping balloons is a vital part when it comes to the balloon ecosystem. Please be sure to check the validity of the to-be unequipped balloon before moving forward with the removal of it.
 
 <pre class="language-java"><code class="lang-java">// Create a player object based on the player you want to unequip a balloon from
 Player player = ...;
@@ -95,3 +95,68 @@ if (singleBalloonUnequipEvent.isCancelled()) return;
 // Remove the balloon from the player
 SingleBalloonManagement.removeBalloon(player, singleBalloon);
 </code></pre>
+
+### Equipping a Multipart Balloon
+
+Equipping a multipart balloon is made easy, all you need to do is specify a balloon ID and a player and you're off!
+
+```java
+// Create a player object based on the player we want to equip the balloon to
+Player player = ...;
+// Specify the ID of the balloon we want to equip
+String balloonID = "...";
+
+// Gets the new balloon type object and the players previously equipped balloon if they had one
+MultipartBalloonType type = Bloons.getBalloonCore().getMultipartBalloonByID(balloonID);
+MultipartBalloon previousBalloon = MultipartBalloonManagement.getPlayerBalloon(player.getUniqueId());
+
+// If the player has a previous multipart balloon, unequip it
+if (previousBalloon != null) {
+    // Call the unequip event
+    MultipartBalloonUnequipEvent multipartBalloonUnequipEvent = new MultipartBalloonUnequipEvent(player, previousBalloon);
+    multipartBalloonUnequipEvent.callEvent();
+
+    // If the event is cancelled, return from unequipping
+    if (multipartBalloonUnequipEvent.isCancelled()) return;
+
+    previousBalloon.destroy();
+    MultipartBalloonManagement.removePlayerBalloon(player.getUniqueId());
+}
+
+// If the balloon ID is a multipart balloon type, equip the balloon with the multipart associated methods
+if (type != null) {
+    // Call the equip event
+    MultipartBalloonEquipEvent multipartBalloonEquipEvent = new MultipartBalloonEquipEvent(player, balloonID);
+    multipartBalloonEquipEvent.callEvent();
+
+    // If the equip event is cancelled, return out of equipping
+    if (multipartBalloonEquipEvent.isCancelled()) return;
+
+    // Build and initialize the new balloon
+    MultipartBalloonBuilder builder = new MultipartBalloonBuilder(type, player);
+    SingleBalloonManagement.removeBalloon(player, Bloons.getPlayerSingleBalloons().get(player.getUniqueId()));
+    MultipartBalloon balloon = builder.build();
+    balloon.initialize();
+    balloon.run();
+
+    // Add the player to the active balloon map
+    MultipartBalloonManagement.setPlayerBalloon(player.getUniqueId(), balloon);
+}
+```
+
+### Unequipping a Multipart Balloon
+
+Unequipping a balloon is a vital part within the plugin, wether the player enters a restricted zone or if you want to reduce the amount of players having balloons equipped, this is the part of the API you want to utilize.
+
+```java
+// Call the unequip event
+MultipartBalloonUnequipEvent multipartBalloonUnquipEvent = new MultipartBalloonUnequipEvent(player, multipartBalloon);
+multipartBalloonUnequipEvent.callEvent();
+
+// If the unequip event is cancelled, return from unequipping the balloon
+if (multipartBalloonUnequipEvent.isCancelled()) return;
+
+// Destroy the balloon and remove the player and balloon from the active balloon map
+multipartBalloon.destroy();
+MultipartBalloonManagement.removePlayerBalloon(player.getUniqueId());
+```
