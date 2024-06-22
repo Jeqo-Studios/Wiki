@@ -1,7 +1,5 @@
 ---
-description: >-
-  Access comprehensive documentation for integrating and using our Minecraft
-  plugins' API.
+description: Access comprehensive documentation for integrating and using the Bloons API.
 ---
 
 # 💻 API
