@@ -1,7 +1,7 @@
 ---
 description: >-
-  Learn how to set up and modify the config.yml file to tailor our Minecraft
-  plugins to your specific needs.
+  Learn how to set up and modify the config.yml file to tailor Bloons to your
+  specific needs.
 ---
 
 # 📜 Main Configuration
