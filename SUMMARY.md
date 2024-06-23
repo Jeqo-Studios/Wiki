@@ -7,6 +7,7 @@
 * [🛠️ Installation](bloons/installation.md)
 * [💻 API](bloons/api.md)
 * [💾 Commands & Permissions](bloons/commands-and-permissions.md)
+* [🎈 Creating A Balloon](bloons/creating-a-balloon.md)
 * [📁 Default Files](bloons/default-files/README.md)
   * [📜 Main Configuration](bloons/default-files/main-configuration.md)
   * [🎈 Example Balloons](bloons/default-files/example-balloons.md)
