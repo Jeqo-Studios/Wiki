@@ -1140,3 +1140,650 @@ messages:
   invalid-hex-code: 'Nevažeći heksadecimalni kod: %s'
 ```
 {% endcode %}
+
+### Hungarian (Hungary)
+
+{% code title="hu_HU.yml" %}
+```yaml
+messages:
+  prefix: '<gradient:#ff00cc:#5555ff>[Bloons]</gradient> <white>'
+  no-permission: '<#fc1c1c>Hozzáférés megtagadva.'
+  player-not-found: '<#fc1c1c>A játékos nem található.'
+  config-reloaded: '<green>A konfiguráció újratöltve.'
+  command-disabled: '<#fc1c1c>Ez a parancs jelenleg letiltva van!'
+
+  equipped: '%s <green>felszerelve!'
+  unequipped: '<green>A lufid biztonságosan eltárolva.'
+  balloon-not-found: '<#fc1c1c>A lufi nem található.'
+  not-equipped: '<#fc1c1c>Jelenleg nincs felszerelve lufi.'
+
+  material-not-dyeable: 'Az anyag %s nem festhető.'
+  invalid-rgb-values: 'Az RGB értékeknek 0 és 255 között kell lenniük.'
+  balloon-not-set: 'A %s lufi nincs beállítva a konfigurációban!'
+  material-not-set: 'A %s lufi anyaga nincs beállítva a konfigurációban!'
+  material-not-valid: 'A %s lufi anyaga nem érvényes anyag! Anyag: %s'
+  material-is-not-valid: 'Az anyag %s nem érvényes anyag!'
+  invalid-item-meta: 'Az ItemMeta nem érvényes az anyaghoz: %s'
+
+  no-balloons-registered: 'Nincsenek regisztrált lufik! Nem lehet menüt létrehozni regisztrált lufik nélkül.'
+
+  configuration-folder-not-found: 'A konfigurációs mappa nem található: %s'
+  no-configuration-files-found: 'Nincsenek konfigurációs fájlok a mappában: %s'
+  configuration-section-not-found: 'A konfigurációs szakasz nem található a fájlhoz: %s'
+  balloon-type-not-found: 'Hiba a lufi típusának feldolgozásakor a szakaszhoz: %s a fájlban: %s. A lufi típusa nem létezik vagy null.'
+  balloon-process-error: 'Hiba a lufi feldolgozásakor a szakaszhoz: %s a fájlban: %s. Hiba: %s'
+
+  menu-slot-out-of-bounds: '%s menü oldal gomb hely nincs határokon belül!'
+
+  invalid-hex-code: 'Érvénytelen hex kód: %s'
+```
+{% endcode %}
+
+### Armenian (Armenia)
+
+{% code title="hy_AM.yml" %}
+```yaml
+messages:
+  prefix: '<gradient:#ff00cc:#5555ff>[Bloons]</gradient> <white>'
+  no-permission: '<#fc1c1c>Թույլատրելիություն չկա.'
+  player-not-found: '<#fc1c1c>Հաստատիչը չի գտնվել.'
+  config-reloaded: '<green>Կոնֆիգուրացիան վերաբեռնվել է:'
+  command-disabled: '<#fc1c1c>Այս հրամանը ներկայացնված չէ։'
+
+  equipped: '%s <green>հավաքվեց։'
+  unequipped: '<green>Ձեր բլունը անվանակում է ապակում։'
+  balloon-not-found: '<#fc1c1c>Բլունը չի գտնվել։'
+  not-equipped: '<#fc1c1c>Դուք ներկայացրել չունեք բլուն։'
+
+  material-not-dyeable: 'Մատիան %s չի կարող նվագել։'
+  invalid-rgb-values: 'RGB արժեքները պետք է լինեն 0-ից 255 միջակայքում։'
+  balloon-not-set: 'Բլունը %s չի սահմանված կոնֆիգուրացիայում։'
+  material-not-set: 'Բլունի %s մարմինը չի սահմանված կոնֆիգուրացիայում։'
+  material-not-valid: 'Բլունի %s մարմինը վավեր չէ։ Մարմինը: %s'
+  material-is-not-valid: 'Մատիան %s վավեր չէ։'
+  invalid-item-meta: 'Ապրանքի մետատվյալները չեն վավերացիայի %s համար։'
+
+  no-balloons-registered: 'Ոչ մի բլուն չի գրանցվել։ Չհաջողվեց ստեղծել ընտրացանկ առանց բլուն։'
+
+  configuration-folder-not-found: 'Կոնֆիգուրացիայի թղթապանակը չի գտնվել՝ %s'
+  no-configuration-files-found: 'Չի գտնվել կոնֆիգուրացիայի ֆայլեր %s թղթապանակում։'
+  configuration-section-not-found: 'Կոնֆիգուրացիայի բաժնի գտնվելը չհաջողվեց ֆայլում՝ %s'
+  balloon-type-not-found: 'Բլունի տեսակի սխալ մշակման համար բաժինը՝ %s, ֆայլում՝ %s։ Բլունի տեսակը չկա կամ դա դատարկ է։'
+  balloon-process-error: 'Բլունի մշակման սխալ համար բաժինը՝ %s, ֆայլում՝ %s։ Սխալ՝ %s'
+
+  menu-slot-out-of-bounds: '%s ընտրացանկի էջի կոճակի տեղերը շարունակվում են առանց պահի։'
+
+  invalid-hex-code: 'Անվավեր հեքս կոդ՝ %s'
+```
+{% endcode %}
+
+### Indonesian (Indonesia)
+
+{% code title="id_ID.yml" %}
+```yaml
+messages:
+  prefix: '<gradient:#ff00cc:#5555ff>[Bloons]</gradient> <white>'
+  no-permission: '<#fc1c1c>Akses ditolak.'
+  player-not-found: '<#fc1c1c>Pemain tidak ditemukan.'
+  config-reloaded: '<green>Konfigurasi dimuat ulang.'
+  command-disabled: '<#fc1c1c>Perintah ini saat ini dinonaktifkan!'
+
+  equipped: '%s <green>terpasang!'
+  unequipped: '<green>Balon Anda telah disimpan dengan aman.'
+  balloon-not-found: '<#fc1c1c>Balon tidak ditemukan.'
+  not-equipped: '<#fc1c1c>Anda saat ini tidak memiliki balon terpasang.'
+
+  material-not-dyeable: 'Material %s tidak dapat diwarnai.'
+  invalid-rgb-values: 'Nilai RGB harus antara 0 dan 255 untuk valid.'
+  balloon-not-set: 'Balon %s tidak diatur dalam konfigurasi!'
+  material-not-set: 'Material balon %s tidak diatur dalam konfigurasi!'
+  material-not-valid: 'Material balon %s bukan material yang valid! Material: %s'
+  material-is-not-valid: 'Material %s bukan material yang valid!'
+  invalid-item-meta: 'ItemMeta tidak valid untuk material: %s'
+
+  no-balloons-registered: 'Tidak ada balon yang terdaftar! Tidak dapat membuat menu tanpa balon.'
+
+  configuration-folder-not-found: 'Folder konfigurasi tidak ditemukan: %s'
+  no-configuration-files-found: 'Tidak ada file konfigurasi yang ditemukan di folder: %s'
+  configuration-section-not-found: 'Bagian konfigurasi tidak ditemukan untuk file: %s'
+  balloon-type-not-found: 'Kesalahan saat memproses jenis balon untuk bagian: %s di file: %s. Jenis balon tidak ada atau null.'
+  balloon-process-error: 'Kesalahan saat memproses balon untuk bagian: %s di file: %s. Kesalahan: %s'
+
+  menu-slot-out-of-bounds: '%s slot tombol halaman menu di luar batas!'
+
+  invalid-hex-code: 'Kode hex tidak valid: %s'
+```
+{% endcode %}
+
+### Icelandic (Iceland)
+
+{% code title="is_IS.yml" %}
+```yaml
+messages:
+  prefix: '<gradient:#ff00cc:#5555ff>[Bloons]</gradient> <white>'
+  no-permission: '<#fc1c1c>Áður hefur verið óheimilt.'
+  player-not-found: '<#fc1c1c>Leikmaður fannst ekki.'
+  config-reloaded: '<green>Stillingar hlaðnar aftur inn.'
+  command-disabled: '<#fc1c1c>Þessi skipun er í augnablikinu óvirk!'
+
+  equipped: '%s <green>búið til!'
+  unequipped: '<green>Loftbelgurinn þinn hefur verið geymdur örugglega.'
+  balloon-not-found: '<#fc1c1c>Loftbelgur fannst ekki.'
+  not-equipped: '<#fc1c1c>Þú ert ekki með loftbelg búinn að gera ráð fyrir þig.'
+
+  material-not-dyeable: 'Efnið %s er ekki litarefni.'
+  invalid-rgb-values: 'RGB gildin verða að vera á milli 0 og 255 til að vera gild gildi.'
+  balloon-not-set: '%s loftbelgurinn er ekki settur í stillingunni!'
+  material-not-set: '%s loftbelgurinn er ekki settur í efni í stillingunni!'
+  material-not-valid: '%s loftbelgurinn er ekki gilt efni! Efni: %s'
+  material-is-not-valid: 'Efnið %s er ekki gilt efni!'
+  invalid-item-meta: 'ItemMeta er ekki gilt fyrir efnið: %s'
+
+  no-balloons-registered: 'Engir loftbelgar eru skráðir! Ekki hægt að búa til valmynd án loftbelga.'
+
+  configuration-folder-not-found: 'Stillingarmappa fannst ekki: %s'
+  no-configuration-files-found: 'Engar stillingarskrár fundust í möppunni: %s'
+  configuration-section-not-found: 'Stillingarsekt fannst ekki fyrir skrá: %s'
+  balloon-type-not-found: 'Villa við að vinna með loftbelg tegund fyrir hluta: %s í skrá: %s. Loftbelgur tegund er ekki til eða er tómur.'
+  balloon-process-error: 'Villa við að vinna loftbelg fyrir hluta: %s í skrá: %s. Villa: %s'
+
+  menu-slot-out-of-bounds: '%s valmynd síðuhnappur staðsetning er utan marka!'
+
+  invalid-hex-code: 'Ógild hex kóði: %s'
+```
+{% endcode %}
+
+### Italian (Italy)
+
+{% code title="it_IT.yml" %}
+```yaml
+messages:
+  prefix: '<gradient:#ff00cc:#5555ff>[Bloons]</gradient> <white>'
+  no-permission: '<#fc1c1c>Accesso negato.'
+  player-not-found: '<#fc1c1c>Giocatore non trovato.'
+  config-reloaded: '<green>Configurazione ricaricata.'
+  command-disabled: '<#fc1c1c>Questo comando è attualmente disabilitato!'
+
+  equipped: '%s <green>equipaggiato!'
+  unequipped: '<green>Il tuo palloncino è stato riposto in sicurezza.'
+  balloon-not-found: '<#fc1c1c>Palloncino non trovato.'
+  not-equipped: '<#fc1c1c>Al momento non hai un palloncino equipaggiato.'
+
+  material-not-dyeable: 'Il materiale %s non è tinto.'
+  invalid-rgb-values: 'I valori RGB devono essere compresi tra 0 e 255 per essere validi.'
+  balloon-not-set: 'Il palloncino %s non è impostato nella configurazione!'
+  material-not-set: 'Il materiale del palloncino %s non è impostato nella configurazione!'
+  material-not-valid: 'Il materiale del palloncino %s non è un materiale valido! Materiale: %s'
+  material-is-not-valid: 'Il materiale %s non è un materiale valido!'
+  invalid-item-meta: 'ItemMeta non è valido per il materiale: %s'
+
+  no-balloons-registered: 'Nessun palloncino registrato! Impossibile creare un menu senza palloncini.'
+
+  configuration-folder-not-found: 'Cartella di configurazione non trovata: %s'
+  no-configuration-files-found: 'Nessun file di configurazione trovato nella cartella: %s'
+  configuration-section-not-found: 'Sezione di configurazione non trovata per il file: %s'
+  balloon-type-not-found: "Errore durante l'elaborazione del tipo di palloncino per la sezione: %s nel file: %s. Il tipo di palloncino non esiste o è nullo."
+  balloon-process-error: "Errore durante l'elaborazione del palloncino per la sezione: %s nel file: %s. Errore: %s"
+
+  menu-slot-out-of-bounds: '%s slot pulsante della pagina del menu fuori limite!'
+
+  invalid-hex-code: 'Codice esadecimale non valido: %s'
+```
+{% endcode %}
+
+### Georgian (Georgia)
+
+{% code title="ka_GE.yml" %}
+```yaml
+messages:
+  prefix: '<gradient:#ff00cc:#5555ff>[Bloons]</gradient> <white>'
+  no-permission: '<#fc1c1c>არაა ნებართვა.'
+  player-not-found: '<#fc1c1c>მოთამაშე არ მოიძებნა.'
+  config-reloaded: '<green>კონფიგურაცია გადატვირთულია.'
+  command-disabled: '<#fc1c1c>ეს ბრძანება ამჟამად გამორთულია!'
+
+  equipped: '%s <green>შედეგიდან ჩამორთულია!'
+  unequipped: '<green>თქვენი ბურთი დაშენახულია უსაფრთხოდ.'
+  balloon-not-found: '<#fc1c1c>ბურთი ვერ მოიძებნა.'
+  not-equipped: '<#fc1c1c>თქვენ ამჟამად არ გაქვთ დამორჩილებული ბურთი.'
+
+  material-not-dyeable: 'მასალა %s არ შეიძლება გათვლდეს.'
+  invalid-rgb-values: 'RGB მნიშვნელობები უნდა იყოს 0-დან 255-მდე, რათა იყოს სწორი.'
+  balloon-not-set: 'ბურთი %s არ არის დაყენებული კონფიგურაციაში!'
+  material-not-set: 'ბურთის მასალა %s არ არის დაყენებული კონფიგურაციაში!'
+  material-not-valid: 'ბურთის მასალა %s არ არის მართებული! მასალა: %s'
+  material-is-not-valid: 'მასალა %s არ არის მართებული!'
+  invalid-item-meta: 'ItemMeta არ არის მასალათვის: %s'
+
+  no-balloons-registered: 'ბურთები არ მოიძებნა! მენიუ ვერ შეიქმნა ბურთების გარეშე.'
+
+  configuration-folder-not-found: 'კონფიგურაციის საქაღალდე არ მოიძებნა: %s'
+  no-configuration-files-found: 'კონფიგურაციის ფაილები არ მოიძებნა საქაღალდეში: %s'
+  configuration-section-not-found: 'კონფიგურაციის სექცია არ მოიძებნა ფაილისთვის: %s'
+  balloon-type-not-found: 'ბურთის ტიპის დამუშავების შეცდომა სექციისთვის: %s ფაილში: %s. ბურთის ტიპი არ არსებობს ან იქნა ცარიელი.'
+  balloon-process-error: 'ბურთის დამუშავების შეცდომა სექციისთვის: %s ფაილში: %s. შეცდომა: %s'
+
+  menu-slot-out-of-bounds: '%s მენიუს გვერდის ღილაკი(ები) გარეთ ზღვაში!'
+
+  invalid-hex-code: 'არასწორი hex კოდი: %s'
+```
+{% endcode %}
+
+### Kazakh (Kazakhstan)
+
+{% code title="kk_KZ.yml" %}
+```yaml
+messages:
+  prefix: '<gradient:#ff00cc:#5555ff>[Bloons]</gradient> <white>'
+  no-permission: '<#fc1c1c>Кіру расталған жоқ.'
+  player-not-found: '<#fc1c1c>Ойыншы табылмады.'
+  config-reloaded: '<green>Конфигурация қайта жүктелді.'
+  command-disabled: '<#fc1c1c>Бұл команда қазір өшірілген!'
+
+  equipped: '%s <green>орнатылды!'
+  unequipped: '<green>Сіздің шарыңыз қауіпсіз сақталды.'
+  balloon-not-found: '<#fc1c1c>Шар табылмады.'
+  not-equipped: '<#fc1c1c>Қазір сізде орнатылған шар жоқ.'
+
+  material-not-dyeable: '%s материалды боялау мүмкін емес.'
+  invalid-rgb-values: 'RGB мәндері 0 және 255 арасында болуы керек.'
+  balloon-not-set: '%s шар конфигурацияда орнатылмаған!'
+  material-not-set: '%s шар материалы конфигурацияда орнатылмаған!'
+  material-not-valid: '%s шар материалы жарамсыз материал емес! Материал: %s'
+  material-is-not-valid: '%s материалы жарамсыз материал емес!'
+  invalid-item-meta: 'ItemMeta материалға жарамсыз: %s'
+
+  no-balloons-registered: 'Шығарушылар тіркеулі емес! Шарларсыз мәзір жасау мүмкін емес.'
+
+  configuration-folder-not-found: 'Конфигурация қалтасы табылмады: %s'
+  no-configuration-files-found: 'Конфигурация файлдары табылмады: %s папкада жоқ'
+  configuration-section-not-found: 'Файл үшін конфигурация бөлімі табылмады: %s'
+  balloon-type-not-found: 'Бөлім: %s файл: %s үшін шар түрін өңдеу кезінде қате пайда болды. Шар түрі жоқ немесе бос.'
+  balloon-process-error: 'Бөлім: %s файл: %s үшін шарды өңдеу кезінде қате пайда болды. Қате: %s'
+
+  menu-slot-out-of-bounds: '%s меню бет батырма орындары шектеуден тыс!'
+
+  invalid-hex-code: 'Жарамсыз қиылмашы код: %s'
+```
+{% endcode %}
+
+### Kannada (India)
+
+{% code title="kn_IN.yml" %}
+```yaml
+messages:
+  prefix: '<gradient:#ff00cc:#5555ff>[Bloons]</gradient> <white>'
+  no-permission: '<#fc1c1c>ಪ್ರವೇಶ ನಿರಾಕರಿಸಲಾಗಿದೆ.'
+  player-not-found: '<#fc1c1c>ಆಟಗಾರ ಕಂಡುಬರಲಿಲ್ಲ.'
+  config-reloaded: '<green>ಕಾನ್ಫಿಗರೇಷನ್ ಮರುಹೊಂದಿಸಲಾಗಿದೆ.'
+  command-disabled: '<#fc1c1c>ಈ ಕಮಾಂಡ್ ಪ್ರಸ್ತುತವಾಗಿ ನಿಷೇಧಿಸಲಾಗಿದೆ!'
+
+  equipped: '%s <green>ಅಣಿಮಾಡಲಾಗಿದೆ!'
+  unequipped: '<green>ನಿಮ್ಮ ಬಲೂನ್ ಸುರಕ್ಷಿತವಾಗಿ ಸಂಗ್ರಹಿತವಾಗಿದೆ.'
+  balloon-not-found: '<#fc1c1c>ಬಲೂನ್ ಸಿಗಲಿಲ್ಲ.'
+  not-equipped: '<#fc1c1c>ನೀವು ಪ್ರಸ್ತುತವಾಗಿ ಯಾವುದೇ ಬಲೂನ್ ಅಣಿಯಲಾಗಿಲ್ಲ.'
+
+  material-not-dyeable: 'ತರಹದ %s ಬಣ್ಣಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ.'
+  invalid-rgb-values: 'RGB ಮೌಲ್ಯಗಳು 0 ಮತ್ತು 255 ನಡುವೆ ಇರಬೇಕು ಅಥವಾ ಮಾನ್ಯವಿರಬೇಕು.'
+  balloon-not-set: 'ಬಲೂನ್ %s ಆಕೃತಿಯಲ್ಲಿ ಹೊಂದಲ್ಪಡಿಲ್ಲ!'
+  material-not-set: 'ಬಲೂನ್ %s ಆಕೃತಿಯ ಬಲೂನ್ ಅನಾಯಕ್ತವಾಗಿದೆ!'
+  material-not-valid: 'ಬಲೂನ್ %s ಆಕೃತಿಯ ಬಲೂನ್ ಅಮಾನ್ಯ ವಸ್ತು! ವಸ್ತು: %s'
+  material-is-not-valid: '%s ವಸ್ತು ಅಮಾನ್ಯ ವಸ್ತು ಅಥವಾ ಖಾಲಿ ಇದೆ!'
+  invalid-item-meta: 'ಐಟಂಮೇಟಾ ಬಲೂನ್ ಅನಾಯಕ್ತವಾಗಿದೆ: %s'
+
+  no-balloons-registered: 'ಯಾವುದೇ ಬಲೂನ್‌ಗಳು ನೋಂದಿಗೆಯಾಗಿಲ್ಲ! ಬಲೂನ್‌ಗಳಿಲ್ಲದೆ ಮೆನು ರಚಿಸಲಾಗಿಲ್ಲ.'
+
+  configuration-folder-not-found: 'ಆಕೃತಿ ಫೋಲ್ಡರ್ ಸಿಗಲಿಲ್ಲ: %s'
+  no-configuration-files-found: 'ಫೋಲ್ಡರ್‌ನಲ್ಲಿ ಯಾವುದೇ ಆಕೃತಿ ಫೈಲ್‌ಗಳು ಸಿಗಲಿಲ್ಲ: %s'
+  configuration-section-not-found: 'ಫೈಲ್‌ಗಾಗಿ ಆಕೃತಿ ವಿಭಾಗ ಸಿಗಲಿಲ್ಲ: %s'
+  balloon-type-not-found: 'ಪ್ರಕಾರ ಸಿಗಲಿಲ್ಲ ಅಥವಾ ಖಾಲಿ ಆಗಿದೆ: %s ಫೈಲ್‌ನಲ್ಲಿ %s ವಿಭಾಗಕ್ಕಾಗಿ ಬಲೂನ್ ಪ್ರಕ್ರಿಯೆ ತಪ್ಪಾಗಿದೆ.'
+  balloon-process-error: 'ಬಲೂನ್ ವಿಭಾಗಕ್ಕಾಗಿ %s ಫೈಲ್‌ನಲ್ಲಿ %s ಬಲೂನ್ ಪ್ರಕ್ರಿಯೆ ತಪ್ಪಾಗಿದೆ. ತಪ್ಪು: %s'
+
+  menu-slot-out-of-bounds: '%s ಮೆನು ಪುಟ ಬಟನ್ ಸ್ಲಾಟ್‌ಗಳು ಗರಿಷ್ಠ ಮಿತಿಯ ಹೊರಗಿವೆ!'
+
+  invalid-hex-code: 'ಅಮಾನ್ಯ ಹೆಕ್ಸ್ ಕೋಡ್: %s'
+```
+{% endcode %}
+
+### Konkani (India)
+
+{% code title="kok_IN.yml" %}
+```yaml
+messages:
+  prefix: '<gradient:#ff00cc:#5555ff>[Bloons]</gradient> <white>'
+  no-permission: '<#fc1c1c>परवानगी नको.'
+  player-not-found: '<#fc1c1c>खेळाडू सापडला नाही.'
+  config-reloaded: '<green>कॉनफिगरेशन पुन्हा लोड केली.'
+  command-disabled: '<#fc1c1c>हे कमांड आत्ता अक्षम आहे!'
+
+  equipped: '%s <green>थांबलेला आहे!'
+  unequipped: '<green>तुमचा गुबांस सुरक्षितरित्या जतन केला गेला आहे.'
+  balloon-not-found: '<#fc1c1c>गुबांस सापडला नाही.'
+  not-equipped: '<#fc1c1c>आत्ता तुमच्याकडे कोणतेही थांबलेले गुबांस नाही.'
+
+  material-not-dyeable: 'मटेरियल %s रंगण योग्य नाही.'
+  invalid-rgb-values: 'RGB मूल्ये 0 आणि 255 यांच्यात असाव्याचे आवश्यक आहेत.'
+  balloon-not-set: '%s गुबांस सेट केलेला नाही!'
+  material-not-set: '%s गुबांसचा सामग्री कॉनफिगरेशनमध्ये सेट केलेला नाही!'
+  material-not-valid: '%s गुबांसचा सामग्री अवैध सामग्री आहे! सामग्री: %s'
+  material-is-not-valid: '%s सामग्री अवैध सामग्री नाही!'
+  invalid-item-meta: 'आयटममेटा सामग्र्यासाठी अवैध आहे: %s'
+
+  no-balloons-registered: 'कोणत्याही गुबांस नोंदविल्या नाहीत! गुबांस बिना मेनू तयार करणे असंभव आहे.'
+
+  configuration-folder-not-found: 'कॉनफिगरेशन फोल्डर सापडला नाही: %s'
+  no-configuration-files-found: 'कॉनफिगरेशन फाइल सापडली नाही: %s'
+  configuration-section-not-found: 'फाइलसाठी कॉनफिगरेशन खंड सापडला नाही: %s'
+  balloon-type-not-found: 'विभाग: %s फाईल: %s साठी गुबांस प्रकार प्रोसेसिंग करण्यात त्रुटी आली. गुबांस प्रकार अस्तित्वात नाही किंवा रिक्त आहे.'
+  balloon-process-error: 'विभाग: %s फाईल: %s साठी गुबांस प्रोसेसिंग करण्यात त्रुटी आली. त्रुटी: %s'
+
+  menu-slot-out-of-bounds: '%s मेनू पृष्ठ बटण स्लॉट सीमेत आहेत!'
+
+  invalid-hex-code: 'अवैध हेक्स कोड: %s'
+```
+{% endcode %}
+
+### Lithuanian (Lithuania)
+
+{% code title="lt_LT.yml" %}
+```yaml
+messages:
+  prefix: '<gradient:#ff00cc:#5555ff>[Bloons]</gradient> <white>'
+  no-permission: '<#fc1c1c>Prieiga uždrausta.'
+  player-not-found: '<#fc1c1c>Žaidėjas nerastas.'
+  config-reloaded: '<green>Konfigūracija įkelta iš naujo.'
+  command-disabled: '<#fc1c1c>Ši komanda šiuo metu išjungta!'
+
+  equipped: '%s <green>įrengtas!'
+  unequipped: '<green>Jūsų balionas buvo saugiai padėtas.'
+  balloon-not-found: '<#fc1c1c>Balionas nerastas.'
+  not-equipped: '<#fc1c1c>Jūs šiuo metu neturite įrengto baliono.'
+
+  material-not-dyeable: 'Medžiaga %s negali būti nudažyta.'
+  invalid-rgb-values: 'RGB reikšmės turi būti tarp 0 ir 255, kad būtų galiojančios.'
+  balloon-not-set: 'Balionas %s neįrengtas konfigūracijoje!'
+  material-not-set: 'Baliono %s medžiaga nėra nustatyta konfigūracijoje!'
+  material-not-valid: 'Baliono %s medžiaga nėra galiojanti! Medžiaga: %s'
+  material-is-not-valid: 'Medžiaga %s nėra galiojanti medžiaga!'
+  invalid-item-meta: 'Elemento meta nėra galiojanti medžiagai: %s'
+
+  no-balloons-registered: 'Nėra užregistruota jokių balionų! Negalima sukurti meniu be balionų.'
+
+  configuration-folder-not-found: 'Konfigūracijos aplankas nerastas: %s'
+  no-configuration-files-found: 'Konfigūracijos failų nerasta aplanke: %s'
+  configuration-section-not-found: 'Konfigūracijos skyriaus nerasta failui: %s'
+  balloon-type-not-found: 'Klaida apdorojant baliono tipą skyriui: %s faile: %s. Baliono tipas neegzistuoja arba yra nulinis.'
+  balloon-process-error: 'Klaida apdorojant balioną skyriui: %s faile: %s. Klaida: %s'
+
+  menu-slot-out-of-bounds: '%s meniu puslapio mygtukų slotų yra už ribų!'
+
+  invalid-hex-code: 'Netinkamas heksadinis kodas: %s'
+```
+{% endcode %}
+
+### Latvian (Latvia)
+
+{% code title="lv_LV.yml" %}
+```yaml
+messages:
+  prefix: '<gradient:#ff00cc:#5555ff>[Bloons]</gradient> <white>'
+  no-permission: '<#fc1c1c>Piekļuve liegta.'
+  player-not-found: '<#fc1c1c>Spēlētājs nav atrasts.'
+  config-reloaded: '<green>Konfigurācija pārlādēta.'
+  command-disabled: '<#fc1c1c>Šī komanda pašlaik ir atspējota!'
+
+  equipped: '%s <green>izvēlēts!'
+  unequipped: '<green>Jūsu gaisa balons ir droši saglabāts.'
+  balloon-not-found: '<#fc1c1c>Gaisa balons nav atrasts.'
+  not-equipped: '<#fc1c1c>Jums pašlaik nav neviena gaisa balona izvēlēta.'
+
+  material-not-dyeable: 'Materiālu %s nevar nokrāsot.'
+  invalid-rgb-values: 'RGB vērtībām jābūt starp 0 un 255, lai tās būtu derīgas.'
+  balloon-not-set: '%s gaisa balons nav iestatīts konfigurācijā!'
+  material-not-set: '%s gaisa balona materiāls nav iestatīts konfigurācijā!'
+  material-not-valid: '%s gaisa balona materiāls nav derīgs! Materiāls: %s'
+  material-is-not-valid: 'Materiāls %s nav derīgs materiāls!'
+  invalid-item-meta: 'Priekšmets Meta nav derīgs materiālam: %s'
+
+  no-balloons-registered: 'Nav reģistrēts neviens gaisa balons! Nevar izveidot izvēlni bez gaisa baloniem.'
+
+  configuration-folder-not-found: 'Konfigurācijas mape nav atrasta: %s'
+  no-configuration-files-found: 'Konfigurācijas faili nav atrasti mapē: %s'
+  configuration-section-not-found: 'Konfigurācijas sadaļa nav atrasta failam: %s'
+  balloon-type-not-found: 'Kļūda apstrādājot gaisa balona veidu sadaļai: %s failā: %s. Gaisa balona tips neeksistē vai ir nulle.'
+  balloon-process-error: 'Kļūda apstrādājot gaisa balonu sadaļai: %s failā: %s. Kļūda: %s'
+
+  menu-slot-out-of-bounds: '%s izvēlnes lapas pogu slots ir ārpus robežām!'
+
+  invalid-hex-code: 'Nederīgs hex kods: %s'
+```
+{% endcode %}
+
+### Macedonian (Macedonia)
+
+{% code title="mk_MK.yml" %}
+```yaml
+messages:
+  prefix: '<gradient:#ff00cc:#5555ff>[Bloons]</gradient> <white>'
+  no-permission: '<#fc1c1c>Пристапот е забранет.'
+  player-not-found: '<#fc1c1c>Играчот не е пронајден.'
+  config-reloaded: '<green>Конфигурацијата е превчитана.'
+  command-disabled: '<#fc1c1c>Оваа команда е исклучена во моментов!'
+
+  equipped: '%s <green>опремен!'
+  unequipped: '<green>Вашиот балон е безбедно зачуван.'
+  balloon-not-found: '<#fc1c1c>Балонот не е пронајден.'
+  not-equipped: '<#fc1c1c>Моментално немате опремен балон.'
+
+  material-not-dyeable: 'Материјалот %s не може да се обои.'
+  invalid-rgb-values: 'RGB вредностите мора да бидат помеѓу 0 и 255 за да бидат валидни.'
+  balloon-not-set: 'Балонот %s не е поставен во конфигурацијата!'
+  material-not-set: 'Материјалот на балонот %s не е поставен во конфигурацијата!'
+  material-not-valid: 'Материјалот на балонот %s не е валиден! Материјал: %s'
+  material-is-not-valid: 'Материјалот %s не е валиден материјал!'
+  invalid-item-meta: 'ItemMeta не е валиден за материјалот: %s'
+
+  no-balloons-registered: 'Не се регистрирани балони! Не може да се создаде мени без балони.'
+
+  configuration-folder-not-found: 'Папката за конфигурација не е пронајдена: %s'
+  no-configuration-files-found: 'Не се пронајдени конфигурациски датотеки во папката: %s'
+  configuration-section-not-found: 'Секцијата за конфигурација не е пронајдена за датотеката: %s'
+  balloon-type-not-found: 'Грешка при процесирањето на типот на балон за секцијата: %s во датотеката: %s. Типот на балон не постои или е нула.'
+  balloon-process-error: 'Грешка при процесирањето на балон за секцијата: %s во датотеката: %s. Грешка: %s'
+
+  menu-slot-out-of-bounds: '%s копчиња на страната на мениот се надвор од опсегот!'
+
+  invalid-hex-code: 'Невалиден хекс код: %s'
+```
+{% endcode %}
+
+### Malayalam (India)
+
+{% code title="ml_IN.yml" %}
+```yaml
+messages:
+  prefix: '<gradient:#ff00cc:#5555ff>[Bloons]</gradient> <white>'
+  no-permission: '<#fc1c1c>അനുമതി നിരസ്കരിച്ചു.'
+  player-not-found: '<#fc1c1c>കളിക്കാർ കണ്ടെത്തിയില്ല.'
+  config-reloaded: '<green>കോൺഫിഗറേഷൻ പുനഃലോഡ് ചെയ്യപ്പെട്ടു.'
+  command-disabled: '<#fc1c1c>ഈ കമാൻഡ് ഇപ്പോൾ നിരോധിച്ചിരിക്കുന്നു!'
+
+  equipped: '%s <green>സജ്ജമാക്കി!'
+  unequipped: '<green>നിങ്ങളുടെ ബൽലൂൺ സുരക്ഷിതമായി സംരക്ഷിക്കപ്പെട്ടു.'
+  balloon-not-found: '<#fc1c1c>ബൽലൂൺ കണ്ടെത്തിയില്ല.'
+  not-equipped: '<#fc1c1c>നിങ്ങൾക്ക് നിലവിലുള്ള ബൽലൂൺ ഇപ്പോൾ ലഭ്യമല്ല.'
+
+  material-not-dyeable: 'ഉള്ളടക്കം %s എന്ന ഉള്ളടക്കം മണിച്ചുകൊടുക്കാം അല്ല.'
+  invalid-rgb-values: 'RGB മൂല്യങ്ങൾ സാധുവായിരിക്കണം എന്നതിനാൽ 0 കുറവും 255 കൂടിയിരിക്കണം.'
+  balloon-not-set: '%s ബൽലൂൺ കോൺഫിഗറേഷനിൽ സജ്ജമാക്കിയില്ല!'
+  material-not-set: '%s ബൽലൂൺ ഉള്ളടക്കം കോൺഫിഗറേഷനിൽ സജ്ജമാക്കിയില്ല!'
+  material-not-valid: '%s ബൽലൂൺ ഉള്ളടക്കം സാധുവായ ഉള്ളടക്കം അല്ല! ഉള്ളടക്കം: %s'
+  material-is-not-valid: 'ഉള്ളടക്കം %s സാധുവായ ഉള്ളടക്കം അല്ല!'
+  invalid-item-meta: 'ഉള്ളടക്കം മെറ്റ സാധുവായ ഉള്ളടക്കംകൊണ്ടില്ല: %s'
+
+  no-balloons-registered: 'രജിസ്ട്രുചെയ്ത ബൽലൂൺ ഇല്ല! ബൽലൂൺസ് ഇല്ലാതെ ഒരു മെനു സൃഷ്ടിക്കാനായില്ല.'
+
+  configuration-folder-not-found: 'കോൺഫിഗറേഷൻ ഫോൾഡർ കണ്ടെത്തിയില്ല: %s'
+  no-configuration-files-found: 'ഫോൾഡർനിൽ കോൺഫിഗറേഷൻ ഫയലുകൾ കണ്ടെത്തിയില്ല: %s'
+  configuration-section-not-found: 'ഫയൽക്ക് കോൺഫിഗറേഷൻ വിഭാഗം കണ്ടെത്തിയില്ല: %s'
+  balloon-type-not-found: 'വിഭാഗത്തിനുള്ള ബൽലൂൺ തരത്തിന്റെ പ്രോസസ്സിംഗ് പിഴവ്: %s ഫയലിൽ: %s. ബൽലൂൺ തരം നിലവിലില്ല അല്ലെങ്കിൽ നൽകുന്നത് ശൂന്യമാണ്.'
+  balloon-process-error: 'വിഭാഗത്തിനുള്ള ബൽലൂൺ പ്രോസസ്സിംഗിന് പിഴവ്: %s ഫയലിൽ: %s. പിഴവ്: %s'
+
+  menu-slot-out-of-bounds: '%s മെനു പേജ് ബട്ടൺ സ്ലോട്ടുകൾ പരിധിയിൽ വിരുദ്ധമാണ്!'
+
+  invalid-hex-code: 'അസാധുവായ ഹെക്സ് കോഡ്: %s'
+```
+{% endcode %}
+
+### Mongolian (Mongolia)
+
+{% code title="mn_MN.yml" %}
+```yaml
+messages:
+  prefix: '<gradient:#ff00cc:#5555ff>[Bloons]</gradient> <white>'
+  no-permission: '<#fc1c1c>Хандах эрх алгагүй.'
+  player-not-found: '<#fc1c1c>Тоглогч олдсонгүй.'
+  config-reloaded: '<green>Тохиргоо дахин татаж авлагдлаа.'
+  command-disabled: '<#fc1c1c>Энэ комманд одоогоор идэвхгүй байна!'
+
+  equipped: '%s <green>тохируулсан!'
+  unequipped: '<green>Таны бөмбөг амжилттай хадгалагдсан байна.'
+  balloon-not-found: '<#fc1c1c>Бөмбөг олдсонгүй.'
+  not-equipped: '<#fc1c1c>Танд одоогоор суурилсан бөмбөг байхгүй байна.'
+
+  material-not-dyeable: 'Материал %s харах боломжгүй.'
+  invalid-rgb-values: 'RGB утгууд 0 ба 255 хооронд байх ёстой.'
+  balloon-not-set: '%s бөмбөг тохиргоо дотор тохирохгүй байна!'
+  material-not-set: '%s бөмбөгийн материал тохиргоо дотор тохирохгүй байна!'
+  material-not-valid: '%s бөмбөгийн материал буруу бөгөөд! Материал: %s'
+  material-is-not-valid: 'Материал %s буруу материал байна!'
+  invalid-item-meta: 'ItemMeta %s материалд хүчин төгөлдөр биш байна.'
+
+  no-balloons-registered: 'Тодорхойлолтоо хийгээгүй бөмбөг олдсонгүй! Бөмбөгтэй цэс үүсгэх боломжгүй.'
+
+  configuration-folder-not-found: 'Тохиргоо хавтас олдсонгүй: %s'
+  no-configuration-files-found: 'Тохиргоо файл олдсонгүй хавтас дотор: %s'
+  configuration-section-not-found: 'Тохиргоо хэсэг олдсонгүй файлд: %s'
+  balloon-type-not-found: 'Секц шинж чанарыг бөмбөг төрөлд байршуулахад алдаа гарлаа: %s файлаас: %s. Бөмбөгийн төрөл байхгүй буюу хоосон байна.'
+  balloon-process-error: 'Секц бөмбөгийг боловсруулах үед алдаа гарлаа: %s файлаас: %s. Алдаа: %s'
+
+  menu-slot-out-of-bounds: '%s цэсийн товчны слот баасан хязгаартай байна!'
+
+  invalid-hex-code: 'Хүчин төгөлдөрт олдсонгүй хэкс код: %s'
+```
+{% endcode %}
+
+### Marathi (India)
+
+{% code title="mr_IN.yml" %}
+```yaml
+messages:
+  prefix: '<gradient:#ff00cc:#5555ff>[Bloons]</gradient> <white>'
+  no-permission: '<#fc1c1c>परवानगी नाकारली.'
+  player-not-found: '<#fc1c1c>खेळाडू सापडला नाही.'
+  config-reloaded: '<green>कॉन्फिगरेशन पुन्हा लोड केली गेली आहे.'
+  command-disabled: '<#fc1c1c>ही कमाण्ड सध्या अक्षम केली आहे!'
+
+  equipped: '%s <green>सज्ज झाला आहे!'
+  unequipped: '<green>तुमचं गुब्बा सुरक्षितपणे संग्रहित केलं गेलं आहे.'
+  balloon-not-found: '<#fc1c1c>गुब्बा सापडला नाही.'
+  not-equipped: '<#fc1c1c>तुम्हाला सध्या कोणत्याही गुब्बा सज्ज नाही.'
+
+  material-not-dyeable: 'सामग्री %s फेरफटकारण्यायोग्य नाही.'
+  invalid-rgb-values: 'RGB मूल्ये 0 आणि 255 दरम्यान असणे आवश्यक आहेत.'
+  balloon-not-set: '%s गुब्बा कॉन्फिगरेशनमध्ये सेट केलं नाही!'
+  material-not-set: 'गुब्बा %s सामग्री कॉन्फिगरेशनमध्ये सेट केली नाही!'
+  material-not-valid: 'गुब्बा %s सामग्री वैध नाही! सामग्री: %s'
+  material-is-not-valid: 'सामग्री %s वैध सामग्री नाही!'
+  invalid-item-meta: 'मदत मेटा %s सामग्रीसाठी वैध नाही.'
+
+  no-balloons-registered: 'कोणतेही गुब्बे नोंदणीकृत नाहीत! गुब्बे विहित केल्याशिवाय मेनू तयार केले जाऊ शकत नाहीत.'
+
+  configuration-folder-not-found: 'कॉन्फिगरेशन फोल्डर सापडला नाही: %s'
+  no-configuration-files-found: 'कोणतेही कॉन्फिगरेशन फाइल सापडली नाही: %s'
+  configuration-section-not-found: 'फाइलसाठी कॉन्फिगरेशन खंड सापडला नाही: %s'
+  balloon-type-not-found: 'सेक्शनसाठी गुब्बा प्रकार प्रोसेसिंग त्रुटी: %s फाइलमध्ये: %s. गुब्बा प्रकार अस्तित्वात नाही किंवा शून्य आहे.'
+  balloon-process-error: 'सेक्शनसाठी गुब्बा प्रोसेसिंग त्रुटी: %s फाइलमध्ये: %s. त्रुटी: %s'
+
+  menu-slot-out-of-bounds: '%s मेनू पृष्ठ बटण स्लॉट सीमा उत्तीर्ण!'
+
+  invalid-hex-code: "अवैध हेक्स कोड: %s"
+```
+{% endcode %}
+
+### Malay (Malaysia)
+
+{% code title="ms_MY.yml" %}
+```yaml
+messages:
+  prefix: '<gradient:#ff00cc:#5555ff>[Bloons]</gradient> <white>'
+  no-permission: '<#fc1c1c>Akses ditolak.'
+  player-not-found: '<#fc1c1c>Pemain tidak dijumpai.'
+  config-reloaded: '<green>Konfigurasi dimuat semula.'
+  command-disabled: '<#fc1c1c>Perintah ini kini dinyahaktifkan!'
+
+  equipped: '%s <green>dilengkapi!'
+  unequipped: '<green>Belon anda telah disimpan dengan selamat.'
+  balloon-not-found: '<#fc1c1c>Belon tidak dijumpai.'
+  not-equipped: '<#fc1c1c>Anda kini tidak mempunyai belon yang dilengkapi.'
+
+  material-not-dyeable: 'Bahan %s tidak boleh diwarnakan.'
+  invalid-rgb-values: 'Nilai-nilai RGB mestilah antara 0 dan 255 untuk sah.'
+  balloon-not-set: 'Belon %s tidak ditetapkan dalam konfigurasi!'
+  material-not-set: 'Bahan belon %s tidak ditetapkan dalam konfigurasi!'
+  material-not-valid: 'Bahan belon %s tidak sah! Bahan: %s'
+  material-is-not-valid: 'Bahan %s bukan bahan yang sah!'
+  invalid-item-meta: 'ItemMeta tidak sah untuk bahan: %s'
+
+  no-balloons-registered: 'Tiada belon yang didaftarkan! Tidak dapat membuat menu tanpa belon.'
+
+  configuration-folder-not-found: 'Folder konfigurasi tidak dijumpai: %s'
+  no-configuration-files-found: 'Tiada fail konfigurasi dijumpai dalam folder: %s'
+  configuration-section-not-found: 'Seksyen konfigurasi tidak dijumpai untuk fail: %s'
+  balloon-type-not-found: 'Ralat semasa pemprosesan jenis belon untuk seksyen: %s dalam fail: %s. Jenis belon tidak wujud atau adalah null.'
+  balloon-process-error: 'Ralat semasa pemprosesan belon untuk seksyen: %s dalam fail: %s. Ralat: %s'
+
+  menu-slot-out-of-bounds: '%s slot butang halaman menu di luar batasannya!'
+
+  invalid-hex-code: 'Kod heks tidak sah: %s'
+```
+{% endcode %}
+
+### Maltese (Malta)
+
+{% code title="mt_MT.yml" %}
+```yaml
+messages:
+  prefix: '<gradient:#ff00cc:#5555ff>[Bloons]</gradient> <white>'
+  no-permission: '<#fc1c1c>Aċċess imneħħi.'
+  player-not-found: '<#fc1c1c>Lilek ma nstabx.'
+  config-reloaded: '<green>Konfigurazzjoni riffriskata.'
+  command-disabled: '<#fc1c1c>Din il-kommanda hija disattivata bħalissa!'
+
+  equipped: '%s <green>imħallat!'
+  unequipped: '<green>Il-ballun tiegħek ġie ssalvat b'sigurtà.'
+  balloon-not-found: '<#fc1c1c>Ballun ma nstabx.'
+  not-equipped: '<#fc1c1c>Inti bħalissa ma għandekx ballun imħallat.'
+
+  material-not-dyeable: 'Il-materjal %s ma jistax jiġi maħżul.'
+  invalid-rgb-values: 'Il-valuri RGB għandhom ikunu bejn 0 u 255 biex ikunu validi.'
+  balloon-not-set: 'Il-ballun %s ma ġiex stabbilit fil-konfigurazzjoni!'
+  material-not-set: 'Il-materjal tal-ballun %s ma ġie stabbilit fil-konfigurazzjoni!'
+  material-not-valid: 'Il-materjal tal-ballun %s ma huwiex materjal validu! Materjal: %s'
+  material-is-not-valid: 'Il-materjal %s ma huwiex materjal validu!'
+  invalid-item-meta: 'ItemMeta mhix valida għal materjal: %s'
+
+  no-balloons-registered: 'L-ebda balluni mregistra! Ma tistax toħloq menu bla balluni.'
+
+  configuration-folder-not-found: 'Fowldier tal-konfigurazzjoni ma nstabx: %s'
+  no-configuration-files-found: 'Ebda fajl tal-konfigurazzjoni ma nstabx fil-fowldier: %s'
+  configuration-section-not-found: 'Seksjoni tal-konfigurazzjoni ma nstabx għall-fajl: %s'
+  balloon-type-not-found: 'Żballun tal-tip mhux matmati għas-sezzjoni: %s fil-fajl: %s. It-tip tal-ballun ma jeżistix jew huwa null.'
+  balloon-process-error: "Żballun ta' l-proċessar għas-sezzjoni: %s fil-fajl: %s. Żballun processa l-ħażin: %s"
+
+  menu-slot-out-of-bounds: '%s slot tal-paġna tal-meni huwa barra mill-limiti!'
+
+  invalid-hex-code: 'Kodiċi heksa invalidu: %s'
+```
+{% endcode %}
+
