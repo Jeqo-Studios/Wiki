@@ -4,9 +4,9 @@ description: >-
   plugins to your specific needs.
 ---
 
-# 📜 Configuration
+# 📜 Main Configuration
 
-The main configuration file for Bloons is generated as 'config.yml' in the root of the Bloons directory.
+The main configuration file for Bloons is generated as `config.yml` in the root of the Bloons directory.
 
 {% code title="config.yml" %}
 ```yaml

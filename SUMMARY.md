@@ -8,7 +8,7 @@
 * [💻 API](bloons/api.md)
 * [💾 Commands & Permissions](bloons/commands-and-permissions.md)
 * [📁 Default Files](bloons/default-files/README.md)
-  * [📜 Configuration](bloons/default-files/configuration.md)
+  * [📜 Main Configuration](bloons/default-files/main-configuration.md)
   * [🗨️ Language/Locale](bloons/default-files/language-locale.md)
 
 ## Gizmo
