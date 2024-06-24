@@ -61,3 +61,9 @@ buttons:
       - 50
 ```
 {% endcode %}
+
+{% hint style="info" %}
+Troubleshooting and Support
+
+Having issues with Bloons? Join our [community Discord](https://jeqo.net/discord) server and leave a message!
+{% endhint %}

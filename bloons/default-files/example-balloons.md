@@ -157,3 +157,9 @@ multipart_example:
     custom-model-data: 10282 # The custom model data of the tail, this is not required but is recommended for use of models
 ```
 {% endcode %}
+
+{% hint style="info" %}
+Troubleshooting and Support
+
+Having issues with Bloons? Join our [community Discord](https://jeqo.net/discord) server and leave a message!
+{% endhint %}

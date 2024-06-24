@@ -14,3 +14,9 @@ description: >-
 | `/bloons funequip <player>`            | bloons.force   | Forcefully unequips the balloon currently equipped on the specified player.                        |
 | `/bloons reload`                       | bloons.reload  | Reloads the Bloons configuration file and balloon configurations.                                  |
 | `/bloons rl`                           | bloons.reload  | Reloads the Bloons configuration file and balloon configurations.                                  |
+
+{% hint style="info" %}
+Troubleshooting and Support
+
+Having issues with Bloons? Join our [community Discord](https://jeqo.net/discord) server and leave a message!
+{% endhint %}

@@ -144,7 +144,7 @@ if (type != null) {
 
 ### Unequipping a Multipart Balloon
 
-Unequipping a balloon is a vital part within the plugin, wether the player enters a restricted zone or if you want to reduce the amount of players having balloons equipped, this is the part of the API you want to utilize.
+Unequipping a balloon is a vital part of the plugin, whether the player enters a restricted zone or if you want to reduce the number of players having balloons equipped, this is the part of the API you want to utilize.
 
 ```java
 // Call the unequip event
@@ -158,3 +158,9 @@ if (multipartBalloonUnequipEvent.isCancelled()) return;
 multipartBalloon.destroy();
 MultipartBalloonManagement.removePlayerBalloon(player.getUniqueId());
 ```
+
+{% hint style="info" %}
+Troubleshooting and Support
+
+Having issues with Bloons? Join our [community Discord](https://jeqo.net/discord) server and leave a message!
+{% endhint %}
