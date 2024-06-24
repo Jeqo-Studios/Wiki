@@ -13,7 +13,7 @@ There are two balloon types packaged within Bloons. These are `single` and `mult
 
 ### Creating a Minimal Single Balloon
 
-There are a **LOT** of configurations that you can use to create a single balloon. Below you can find an example of a minimal balloon with the minimum options along with an explanation of the configuration.
+There are a **LOT** of configurations that you can use to create a single balloon. Below you can find an example of a minimal balloon with the minimum options along with an explanation of the configuration. **All fields used below are required in the creation of single balloons**.
 
 {% code title="minimal_single.yml" %}
 ```yaml
@@ -60,7 +60,7 @@ This is a maximized single balloon configuration. This utilizes options like lea
 
 ### Creating a Minimal Multipart Balloon
 
-Creating a multipart balloon in a short period of time is simple. With a minimalistic set of fields that are used, you can be up and running within less than a minute.
+Creating a multipart balloon in a short period of time is simple. With a minimalistic set of fields that are used, you can be up and running within less than a minute. **All fields used below are required with the creation of multipart balloons**.
 
 {% code title="minimal_multipart.yml" %}
 ```yaml
@@ -130,3 +130,17 @@ multipart_example:
 {% endcode %}
 
 This example uses a custom sine wave for the animation and tunes the interpolation values to give an elegant and free-feeling experience when using multipart balloons.
+
+### Leaving Fields Blank or Missing
+
+Upon the creation and loading of blank or missing fields a couple things could happen. If the field uses a string as the type, the value is considered null and you will get an error or warning message that will appear in your Bukkit/PaperMC server console. If the field uses a double, integer, or number as the value, the value is considered 0 and will default to the default value set internally within the plugin specified in either the [single configuration fields](single-configuration-fields.md) or the [multipart configuration fields](multipart-configuration-fields.md).
+
+
+
+A large majority of the configuration file-related issues are caught via our custom Logger. If you find any issues regarding configurations, feel free to open an issue on our [issue tracker](https://github.com/Jeqo-Studios/Bloons/issues?q=sort%3Aupdated-desc+is%3Aissue+is%3Aopen).
+
+{% hint style="info" %}
+Troubleshooting and Support
+
+Having issues with Bloons? Join our [community Discord](https://jeqo.net/discord) server and leave a message!
+{% endhint %}

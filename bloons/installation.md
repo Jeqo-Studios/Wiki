@@ -34,11 +34,11 @@ Although this is an important step in the process of hosting and utilizing the p
 Now that you have created a PaperMC server, accepted the Minecraft EULA, and generated the files for your newly or currently existing server, you can now move on to installing the plugin and can get it up and running. Below you can find the steps detailed and laid out one by one:
 
 1. If your server is currently running, please stop your server and ensure that it gracefully shuts down and saves all vital data from the previously run session.
-2. Download Bloons by visiting the [official plugin page](https://jeqo.net/bloons). Save the plugin in an easy to remember location that you can easily access in the next few moments.
+2. Download Bloons by visiting the [official plugin page](https://jeqo.net/bloons). Save the plugin in an easy-to-remember location that you can easily access in the next few moments.
 3. Open up the root directory of your server location, this is where your server JAR is currently located. Navigate to the `plugins` directory and place the Bloons plugin JAR that you downloaded in that directory.
 4. Navigate back to the root of your server and start the PaperMC server via the script file you have created locally OR start your server the way you usually start your server. Whether it be a hosting panel or a command you tend to use regularly.&#x20;
 5. View your console or your current server logs, if no errors have appeared in your console in regards to Bloons and a successful Bloons startup message has appeared then congrats, the plugin has now loaded Bloons! If there is an error or a warning of any importance in your console, please address it and reach out for support on our[ Discord server](https://jeqo.net/discord).
-6. Ensure that all [default files](default-files/) generated properly by navigating to `/plugins/Bloons` and reviewing the language/locale files and various configurations by confirming that they are present and have the proper contents.
+6. Ensure that all [default files](default-files/) are generated properly by navigating to `/plugins/Bloons` and reviewing the language/locale files and various configurations by confirming that they are present and have the proper contents.
 
 Congratulations on loading the Bloons plugin up and setting up your server if you haven't already done so! Our goal with Bloons was to make it as easy and seamless as possible to upload it to your server to ensure the best possible user experience as possible when utilizing your PaperMC server.
 
