@@ -15,7 +15,7 @@ The main configuration file for Bloons is generated as `config.yml` in the root 
 # Bloons [version]
 # Made by Jeqo Studios
 #
-# Wiki:     https://jeqo.net/wiki
+# Wiki:        https://jeqo.net/wiki
 # Discord:     https://jeqo.net/discord
 #
 # --------------------------------------------------#
